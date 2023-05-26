@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+  
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Roboto Serif', serif;
+}
+
+.container{
+    background-color: #1e2a37;
+    color: white;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.container h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+ .container span{
+    color: #49df86;
+}
+
+.container p{
+    font-size: 18px;
+   margin-bottom: 20px;
+}
+
+.container button{
+    background-color: #49df86;
+    color: #e7f1eb;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.container button:hover{
+    transform: scale(1.1);
+    transition: ease-out 500ms;
+    box-shadow: 0 0 10px black;
+    font-size: 18px;
+    color: #e7f1eb;
+}
+
+.p-class{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.p-class p{
+    background-color:#151e27 ;
+    width: 40%;
+    padding: 20px ;
+    border-radius: 6px;
+    color: #49df86;
+    font-weight: 500;
+    visibility: hidden;
+    cursor: pointer;
+}
+
